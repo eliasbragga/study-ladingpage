@@ -1,0 +1,129 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #7FB3D5;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.308);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 6rem;
+    height: 10%;
+}
+
+.container__title p {
+    font-size: 2rem;
+    color: #6296b7;
+}
+
+.container__nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.container__nav ul li a {
+    text-decoration: none;
+    color: rgba(25, 25, 25, 0.802);
+}
+
+/* main */
+
+main {
+    height: 88%;
+    display: flex;
+}
+
+.container__welcome {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__content {
+    width: 50%;
+    height: 50%;
+}
+
+.container__text {
+    margin-bottom: 3rem;
+}
+
+.container__text h2 {
+    width: 90%;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.text__span {
+    color: #6296b7;
+}
+
+.container__text p {
+    font-weight: 300;
+}
+
+.button {
+    border: none;
+    padding: .7rem;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+
+.button__documentation {
+    background-color: #7fb3d5a1;
+}
+
+.button__documentation:hover {
+    background-color: #6092b4eb;
+    transition: .3s;
+}
+
+.button__documentation:hover:active {
+    background-color: #305a77ba;
+}
+
+.button__view {
+    background-color: #195775;
+}
+.button__view:hover {
+    background-color: #12455f;
+    transition: .3s;
+}
+.button__view:hover:active {
+    background-color: #0a3347;
+    transition: .3s;
+}
+
+.container__img {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container__img div {
+    width: 60%;
+}
+.container__img div img {
+    width: 100%;
+}
